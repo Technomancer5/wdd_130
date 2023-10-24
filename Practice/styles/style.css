@@ -1,0 +1,25 @@
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row: span 4;
+}
+h1 {
+    grid-column: 1/4 ;
+    grid-row: 1/-1;
+    font-size: 100px;
+    z-index: 1;
+}
+img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+p {
+    grid-column: 2/4;
+    grid-row: 1/-1;
+    font-size: 60px;
+    padding: 300px 200px;
+    background-color: rgb(123, 138, 138);
+    color: rgb(255, 0, 0);
+    
+}
+
