@@ -25,6 +25,10 @@ body {
     margin: 0;
     padding: 0;
 }
+#nav-link {
+    display: flex;
+    justify-content: center;
+}
 nav {
     font-size: 1.5em;
     display: flex;
@@ -100,3 +104,40 @@ footer {
     margin: 25px;
     padding: 25px;
 }
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: fixed; /* Position them relative to the browser window */
+    left: -150px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 20px; /* 15px padding */
+    width: 175px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 25px; /* Increase font size */
+    color: #F1FF2E; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #index {
+    top: 20px;
+    background-color: #ff0000;
+  }
+  
+  #achievements {
+    top: 80px;
+    background-color: #0008F1; /* Blue */
+  }
+  
+  #about {
+    top: 140px;
+    background-color: #ff0000; /* Red */
+  }
+  
+  #site-plan {
+    top: 200px;
+    background-color:#1eabdb /* Light Black */
+  }
