@@ -79,7 +79,7 @@ h4 {
     grid-column: 1/2;
 }
 .resume-img {
-    width: 1000px;;
+    width: 1000px;
     grid-column: 2/4;
     grid-row: 1/4;
     padding-left: 25px;
