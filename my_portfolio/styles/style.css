@@ -22,6 +22,7 @@
 body {
     background-color:#F1FF2E;
     font-size: 22px;
+    width: 1000px;
     margin: 0;
     padding: 0;
 }
@@ -78,7 +79,7 @@ h4 {
     grid-column: 1/2;
 }
 .resume-img {
-    width: 1200px;;
+    width: 1000px;;
     grid-column: 2/4;
     grid-row: 1/4;
     padding-left: 25px;
@@ -104,6 +105,41 @@ footer {
     margin: 25px;
     padding: 25px;
 }
+/* this is my child page 1 css*/
+#home-grid1 {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1f;
+    grid-template-rows: 1fr 1fr 1f;
+    padding: 25px;
+}
+#home-grid1 h5 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;  
+}
+.employeeofthequarter-card {
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+  
+}
+.cyberguy-card {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    
+    
+}
+.introtocybersecurity-card {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 1;
+   
+}
+.introtophp-card {
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+    
+}
+
 /* Style the links inside the sidenav */
 #mySidenav a {
     position: fixed; /* Position them relative to the browser window */
