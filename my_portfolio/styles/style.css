@@ -148,9 +148,10 @@ footer {
     grid-template-rows: 1fr 1fr 1f;
     padding: 25px;
 }
-#about_me h4 {
+.h3 {
     grid-column: 2 / span 2;
     grid-row: 1 / span 3;
+    font-size: 14px;
     width: 1750px;
 }
 .cyber5-card {
