@@ -139,6 +139,34 @@ footer {
     grid-row: 3 / span 1;
     
 }
+/* child page 2 css code */
+#home-grid2 {
+    display: grid;
+    justify-items: center;
+    align-items: start;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1f;
+    padding: 25px;
+}
+#about_me h4 {
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 3;
+    width: 1750px;
+}
+.cyber5-card {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    margin-top: 200px;
+}
+.cyberdragons2-card {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+
+}
+.cyberpower-card {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+}
 
 /* Style the links inside the sidenav */
 #mySidenav a {
