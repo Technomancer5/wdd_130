@@ -148,11 +148,11 @@ footer {
     grid-template-rows: 1fr 1fr 1f;
     padding: 25px;
 }
-.h3 {
+#home-grid2 h3 {
     grid-column: 2 / span 2;
     grid-row: 1 / span 3;
-    font-size: 14px;
-    width: 1750px;
+    font-size: 20px;
+    width: 1650px;
 }
 .cyber5-card {
     grid-column: 1 / span 1;
