@@ -2,31 +2,20 @@
     --primary-color: #0008F1;
     --secondary-color: #1eabdb;
     --accent1-color: #F1FF2E;
-    --accent2-color: #ff0000;
-  
+    --accent2-color: #ff0000; 
     --extra-font: "Shadows Into Light";
     --paragraph-font: Play, Helvetica, sans-serif;
     --heading-font: Copperplate;
     --fancy-font: Papyrus;
-  
-    --headline-color-on-white: #0008F1;  /* headlines on a white background */ 
-    --headline-color-on-color: #F1FF2E; /* headlines on a colored background */ 
-    --paragraph-color-on-white: #0008F1; /* paragraph text on a white background */ 
-    --paragraph-color-on-color: #F1FF2E; /* paragraph text on a colored background */ 
-    --paragraph-background-color: #0008F1;
-    --nav-link-color: #0008F1;
-    --nav-background-color: #F1FF2E;
-    --nav-hover-link-color: #0008F1;
-    --nav-hover-background-color: #F1FF2E;
   }
 body {
     background-color:#F1FF2E;
     font-size: 22px;
-    width: 1000px;
+    width: 1400px;
     margin: 0;
     padding: 0;
 }
-#nav-link {
+#title {
     display: flex;
     justify-content: center;
 }
@@ -79,10 +68,9 @@ h4 {
     grid-column: 1/2;
 }
 .resume-img {
-    width: 1000px;
+    width: 750px;
     grid-column: 2/4;
     grid-row: 1/4;
-    padding-left: 25px;
 }
 .side {
     max-width: 100%;
@@ -94,79 +82,90 @@ footer a:hover {
 footer p, footer a {
     font-family: var(--heading-font);
     color: #ff0000;
-    font-size: 1.5em;
-    padding: 25px;
+    font-size: 1em;
+    padding: 30px;
+    margin-left: 15px;
 }
 footer {
     display: flex;
-    margin: 25px;
+    align-items: center;
+    margin: 50px;
 }
 .social {
-    margin: 25px;
-    padding: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
 }
-/* this is my child page 1 css*/
+
+/* this is my child page 1 achievements css*/
 #home-grid1 {
     display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1f;
-    grid-template-rows: 1fr 1fr 1f;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 25px;
+    margin: 30px;
 }
 #home-grid1 h5 {
     grid-column: 1 / span 1;
-    grid-row: 1 / span 1;  
+    grid-row: 1 / span 1;
+    max-width: 500px;
+    margin: 40px;
 }
-.employeeofthequarter-card {
+.employeeofquarter-img {
     grid-column: 2 / span 2;
     grid-row: 1 / span 2;
-  
+    max-width: 850px;
 }
-.cyberguy-card {
+.cyberguy-img {
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
-    
-    
+    justify-self: center;
+    max-width: 500px;
+    max-height: 333px;
 }
-.introtocybersecurity-card {
+.cybersecurity-img {
     grid-column: 1 / span 2;
     grid-row: 3 / span 1;
-   
+    max-width: 700px;
+    margin-top: 20px;
 }
-.introtophp-card {
+.introphp-img {
     grid-column: 3 / span 1;
     grid-row: 3 / span 1;
-    
+    align-self: center;
+    margin-right: 70px;
+    max-width: 500px;
 }
+
 /* child page 2 css code */
 #home-grid2 {
     display: grid;
     justify-items: center;
-    align-items: start;
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1f;
-    padding: 25px;
+   
 }
 #home-grid2 h3 {
     grid-column: 2 / span 2;
     grid-row: 1 / span 3;
     font-size: 20px;
-    width: 1650px;
+    width: 950px;
+    margin-right: 50px;
 }
-.cyber5-card {
+.cyber5-img {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
-    margin-top: 200px;
+    margin-left: 50px;
 }
-.cyberdragons2-card {
+.cyberdragons2-img {
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
-
+    margin-left: 50px;
 }
-.cyberpower-card {
+.cyberpower-img {
     grid-column: 1 / span 1;
     grid-row: 3 / span 1;
+    margin-left: 50px;
 }
 
 /* Style the links inside the sidenav */
@@ -181,27 +180,22 @@ footer {
     color: #F1FF2E; /* White text color */
     border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
   }
-  
   #mySidenav a:hover {
     left: 0; /* On mouse-over, make the elements appear as they should */
-  }
-  
+  } 
   /* The about link: 20px from the top with a green background */
   #index {
     top: 20px;
     background-color: #ff0000;
   }
-  
   #achievements {
     top: 80px;
     background-color: #0008F1; /* Blue */
-  }
-  
+  } 
   #about {
     top: 140px;
     background-color: #ff0000; /* Red */
   }
-  
   #site-plan {
     top: 200px;
     background-color:#1eabdb /* Light Black */
