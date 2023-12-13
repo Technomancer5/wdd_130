@@ -108,32 +108,41 @@ footer {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
     max-width: 500px;
-    margin: 40px;
-}
+    margin-left: 40px;
+}    
 .employeeofquarter-img {
     grid-column: 2 / span 2;
     grid-row: 1 / span 2;
+    justify-self: start;
     max-width: 850px;
+    margin-right: 200px;
+    margin-bottom: 20px;
 }
 .cyberguy-img {
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
-    justify-self: center;
+    justify-self: start;
     max-width: 500px;
     max-height: 333px;
+    margin-left: 175px;
 }
 .cybersecurity-img {
     grid-column: 1 / span 2;
     grid-row: 3 / span 1;
-    max-width: 700px;
-    margin-top: 20px;
+    justify-self: center;
+    max-width: 600px;
 }
-.introphp-img {
+.PCPRO-img {
     grid-column: 3 / span 1;
     grid-row: 3 / span 1;
-    align-self: center;
-    margin-right: 70px;
-    max-width: 500px;
+    margin-right: 40px;
+    max-width: 600px;  
+}
+.introphp-img {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+    margin-left: 40px;
+    max-width: 700px;
 }
 
 /* child page 2 css code */
@@ -142,8 +151,7 @@ footer {
     justify-items: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1f;
-   
+    grid-template-rows: 1fr 1fr 1fr; 
 }
 #home-grid2 h3 {
     grid-column: 2 / span 2;
